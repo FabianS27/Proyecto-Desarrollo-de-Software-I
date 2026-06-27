@@ -11,7 +11,6 @@ public class Personaje {
 
 	//Constructor de parametros
 	public Personaje(String nombre, int vida, int ataque, int defensa, Arma arma) {
-
 		this.nombre = nombre;
 		this.vida = vida;
 		this.ataque = ataque;
