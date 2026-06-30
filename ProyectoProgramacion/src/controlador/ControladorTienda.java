@@ -28,7 +28,7 @@ public class ControladorTienda {
         // Bucle que se ejecuta mientras el jugador no decida salir de la tienda
         boolean salir = false;
         while (!salir) {
-            // Mostrar el menú de la tienda y leer la opción seleccionada por el jugador
+            // Muestra el menú de la tienda y leer la opción seleccionada por el jugador
             int opcionTienda = lector.leerOpcion(
                     "🛒 TIENDA 🛒\n" + "Tienes ¥" + protagonista.getDinero() + "\n1. Poción de vitalidad (¥1000)"
                             + " Cantidad disponible:" + tienda.getCantidadPocionesVitalidadTienda()

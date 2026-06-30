@@ -36,7 +36,7 @@ public class Main {
                 "Seleccione el arma de su protagonista:\n1. Filo del Juramento (Daño: 20 a 40) \n2. Navaja Vorpal (Daño: 20 a 50)\n3. Hacha de Lagrimas (Daño: 30 a 60) ",
                 1, 3);
 
-        // Crear el arma del protagonista
+        // 5. Crear el arma del protagonista
         Arma armaProtagonista;
 
         switch (opcionArma) {
@@ -53,7 +53,7 @@ public class Main {
 
         Protagonista protagonista = new Protagonista(nombreProtagonista, 100, 30, 5, armaProtagonista, 1000);
 
-        // 4. Elegir la dificultad de la partida
+        // 6. Elegir la dificultad de la partida
         String menuDificultad = "Seleccioná la dificultad del juego:\n1. Fácil\n2. Medio\n3. Difícil";
         int opcionDificultad = lector.leerOpcion(menuDificultad, 1, 3);
 
@@ -70,7 +70,7 @@ public class Main {
                 break;
         }
 
-        // 5. Se ingresa al menú principal del juego
+        // 7. Ingresar al menú principal del juego
         int opcionMenu;
         do {
             // menu principal
@@ -158,8 +158,7 @@ public class Main {
             }
 
         } while (opcionMenu != 5);
-        // mensaje de despedida al jugador
-        // 6. Se muestra una pequeña despedida al jugador cuando el combate termina
+        // 8. Se muestra una pequeña despedida al jugador cuando el combate termina
         escritor.mostrarMensaje("¡Gracias por jugar!");
 
     }

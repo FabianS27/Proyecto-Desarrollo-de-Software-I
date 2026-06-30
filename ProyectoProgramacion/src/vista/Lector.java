@@ -13,7 +13,8 @@ public class Lector {
 		do {
 			texto = JOptionPane.showInputDialog(mensaje);
 
-			// Si el usuario presiona cancelar, sale de inmediato devolviendole un nombre por defecto
+			// Si el usuario presiona cancelar, sale de inmediato devolviendole un nombre
+			// por defecto
 			if (texto == null) {
 				return "Jugador 1";
 			}
@@ -64,8 +65,9 @@ public class Lector {
 			opcion = leerEntero(mensaje);
 
 			// Si retorna -1, significa que el usuario presionó cancelar
-			if(opcion == -1) {
-				return -1; // Devuelve el -1 para que la clase que llamó al lector se entere de la cancelación
+			if (opcion == -1) {
+				return -1; // Devuelve el -1 para que la clase que llamó al lector se entere de la
+							// cancelación
 			}
 
 			if (opcion < minimo || opcion > maximo) {

@@ -49,7 +49,7 @@ public class Arma {
 
     public void setDanioMaximo(int danioMaximo) {
         // El daño máximo nunca puede ser menor al daño mínimo
-        if(danioMaximo < this.danioMinimo) {
+        if (danioMaximo < this.danioMinimo) {
             this.danioMaximo = this.danioMinimo;
         } else {
             this.danioMaximo = danioMaximo;
