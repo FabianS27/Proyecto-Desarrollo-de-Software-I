@@ -50,6 +50,7 @@ public class Enemigo extends Personaje {
     // enemigo
     public void aplicarDificultad() {
         switch (dificultad.toLowerCase()) {
+            case "fácil":
             case "facil":
                 setAtaque(20);
                 setDefensa(10);
